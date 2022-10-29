@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* padding: 60px 0; */
+    /* background-color: aqua; */
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+    margin-top: 20px;
+    
+
+}
+
+.search{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+
+
+.search i {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.search i:hover{
+    transform: scale(1.3);
+}
+
+.search input{
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 5px;
+}
+
+.navbar__img{
+    width: 5em;
+    /* margin-right:em; */
+    /* position: absolute;
+    left: 50px;
+     */
+}
+
+.navbar__items{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.navbar__items li{
+    list-style: none;
+    padding: 20px 10px;
+}
+
+.navbar__items a{
+    text-decoration: none;
+    color: rgba(57, 61, 54, 0.675);
+    font-size: 1.5em;
+    
+}
+
+.navbar__items a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+.hero__container{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/hero_background.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 10px solid #000;
+    border-top: 10px solid #000;
+    
+    
+
+}
+
+.hero__container img{
+    width: 400px;
+    
+}
+
+/* section estrenos  */
+
+.estrenos__container{
+    background-color: #f9bb5f;
+    text-align: center;
+    padding: 50px 0;
+    /* margin: 20px; */
+}
+
+
+.pelis__section{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.pelis_container{
+    /* background-color: aqua; */
+    width: 30%;
+    /* height: 200px; */
+    /* border: 2px solid #000; */
+    height: 690px;
+
+    margin: 30px 0;
+    transition: all 0.5s;
+    
+    
+}
+
+.pelis_container img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+.pelis_container:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.pelis__title{
+    display: block;
+    padding: 15px;
+}
+
+.contac__icons{
+    font-size: 35px;
+    text-align: center;
+    background-color: #4d4d4d;
+    color: #fff;
+    padding: 24px 0;
+}
+
+
+.fa-brands{
+
+    margin: 0 20px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.fa-brands:hover{
+
+    transform: scale(1.2);
+
+  
+}
+
+

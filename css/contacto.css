@@ -1,0 +1,59 @@
+
+
+.main__container{
+    width: 100%;
+   
+    background-color: rgba(255, 60, 170, 0.401);
+    background-image: linear-gradient(225deg, rgba(255, 60, 170, 0.4) 0%, rgba(120, 75, 160, 0.411) 50%, rgba(43, 133, 197, 0.422) 100%), url(../img/contactobc.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0.1px;
+}
+
+.form__container{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    margin: 50px auto  ;
+}
+
+.form__title{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: monospace;
+
+}
+
+input,
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+
+    
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+
+}
+
+#boton{
+    background-color: #eac139;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#boton:hover{
+
+}
